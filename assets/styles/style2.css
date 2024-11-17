@@ -1,0 +1,128 @@
+.header {
+  display: flex;
+  box-sizing: border-box;
+  margin-top: 5%;
+  margin-left: 5%;
+  justify-content: space-between;
+}
+
+.header__button {
+  width: 115px;
+  height: 38px;
+  border: none;
+  border-radius: 100px;
+  background-color: rgb(82, 34, 208);
+  align-content: center;
+  margin-right: 8%;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.button__text {
+  color: rgb(255, 255, 255);
+  font-family: 'Intro', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1vw;
+  font-weight: 400;
+  line-height: 13px;
+  text-align: left;
+  text-transform: uppercase; 
+  margin-right: 6%;
+}
+
+.main__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 70% 30%;
+  margin-left: 5%;
+  margin-right: 3%;
+}
+
+.main__title {
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  font-family: 'Intro', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 5vw;
+  font-weight: 400;
+  line-height: 120%;
+  text-align: left; 
+  margin-top: 8%;
+  margin-left: 5%;
+}
+
+.section__illustration {
+  width: 90%;
+}
+
+.section__subtitle {
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  font-family: 'Intro', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2.5vw;
+  font-weight: 400;
+  line-height: 120%;
+  text-align: left; 
+}
+
+.section__subtitle_white {
+  color: rgb(255, 255, 255);
+  
+}
+
+.section__text {
+  width: 90%;
+  color: rgb(0, 0, 0);
+  font-family: 'Roboto Slab', 'Georgia', serif;
+  font-size: 2vw;
+  font-weight: 300;
+  line-height: 160%;
+  text-align: left;  
+}
+
+.last-section {
+  background-color: rgb(236, 97, 91);
+  padding-left: 10%;
+  width: 80%; 
+}
+
+.section__form {
+  max-width: 50%;
+}
+
+.section__button {
+  width: 115px;
+  height: 38px;
+  border: none;
+  border-radius: 100px;
+  background-color: rgb(82, 34, 208);
+  align-content: center;
+  margin-top: 7%;
+  margin-right: 5%;  
+}
+
+.footer__list {
+  display: flex; 
+  justify-content: space-between;
+  margin-top: 6%;
+  margin-left: 2%;
+  list-style-type: none;
+  width: 40%;
+}
+
+.footer__item {  
+  font-family: 'Roboto Slab', 'Georgia', serif;
+  font-size: 1.3vw;
+  font-weight: 300;
+  line-height: 160%;
+  text-align: left;
+}
+
+.footer__link {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
