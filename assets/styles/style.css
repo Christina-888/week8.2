@@ -6,6 +6,10 @@
   justify-content: space-between;
 }
 
+.logo {
+  width: 15vw;
+}
+
 .header__button {
   width: 12vw;
   height: 4vw;
@@ -31,6 +35,7 @@
   line-height: 13px;
   text-align: left;
   text-transform: uppercase; 
+  margin-right: 6%;
 }
 
 .main {
@@ -102,10 +107,10 @@
 }
 
 .footer__list {
-  display: flex; 
+  display: flex;
   justify-content: space-between;
-  margin-top: -50px;;
-  margin-left: 2%;
+  margin-top: -6vw;
+  margin-left: 1%;
   list-style-type: none;
 }
 

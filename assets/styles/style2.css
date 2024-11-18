@@ -6,9 +6,13 @@
   justify-content: space-between;
 }
 
+.logo {
+  width: 15vw;
+}
+
 .header__button {
-  width: 115px;
-  height: 38px;
+  width: 12vw;
+  height: 4vw;
   border: none;
   border-radius: 100px;
   background-color: rgb(82, 34, 208);
@@ -23,6 +27,10 @@
   text-decoration: none;
 }
 
+.button__image {
+  width: 1.7vw;
+}
+
 .button__text {
   color: rgb(255, 255, 255);
   font-family: 'Intro', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -31,7 +39,6 @@
   line-height: 13px;
   text-align: left;
   text-transform: uppercase; 
-  margin-right: 6%;
 }
 
 .main__container {
@@ -89,19 +96,24 @@
   width: 80%; 
 }
 
-.section__form {
-  max-width: 50%;
+.email {
+  width: 83%;
+  font-size: 2vw;
 }
 
 .section__button {
-  width: 115px;
-  height: 38px;
+  width: 14vw;
+  height: 4vw;
   border: none;
   border-radius: 100px;
   background-color: rgb(82, 34, 208);
   align-content: center;
   margin-top: 7%;
   margin-right: 5%;  
+}
+
+.button__text {
+  font-size: 1.5vw;
 }
 
 .footer__list {
